@@ -26,7 +26,7 @@ public class Perceptron {
 
     }
 
-    public int activation()
+    public int activation(double x)
     {
         if(x > 0)
             return 1;
