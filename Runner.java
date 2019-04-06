@@ -1,5 +1,4 @@
 import java.io.IOException;
-import java.util.Arrays;
 
 public class Runner {
 
@@ -35,7 +34,7 @@ public class Runner {
         loadData();
 
         Perceptron p = new Perceptron(4);
-        System.out.println(Arrays.toString(testClasses));
+        System.out.println(java.util.Arrays.toString(testClasses));
 
     }
 
