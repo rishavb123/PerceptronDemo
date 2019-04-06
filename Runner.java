@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Runner {
 
@@ -22,10 +23,19 @@ public class Runner {
 		}
 	}
 
+    public static int getIndex(String classs)
+	{
+		for(int i = 0; i < possibilities.length; i++)
+			if(possibilities[i].equals(classs))
+				return i;
+		return -1;
+	}
+
     public static void main(String[] args) {
         loadData();
 
         Perceptron p = new Perceptron(4);
+        System.out.println(Arrays.toString(testClasses));
 
     }
 
