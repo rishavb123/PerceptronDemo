@@ -32,10 +32,7 @@ public class Runner {
 
     public static void main(String[] args) {
         loadData();
-
-        Perceptron p = new Perceptron(4);
         System.out.println(java.util.Arrays.toString(testClasses));
-
     }
 
 }
